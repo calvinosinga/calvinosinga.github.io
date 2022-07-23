@@ -3,12 +3,14 @@ black (very dark blue): 1F2421
 teal: 216869
 seagreen: 49A078
 soft green: 9CC5A1
+sky blue: 9AD1D4
+gray: 5D737E
 white: DCE1DE
 */
 
 
 body {
-background-color: #1F2421;
+background-color: #1F2421; /* black */
 }
 
 h1 {
@@ -16,7 +18,7 @@ font-family: 'Lato', sans-serif;
 font-size:28;
 text-align: center;
 font-weight:200;
-color: #49A078;
+color: #49A078; /* seagreen */
 }
 
 h2 {
@@ -24,7 +26,7 @@ font-family: 'Lato', sans-serif;
 font-size:28;
 text-align: center;
 font-weight:200;
-color: #9CC5A1;
+color: #5D737E; /* gray */
 font-style:italic;
 }
 
@@ -32,34 +34,35 @@ p {
 font-family: 'Montserrat', sans-serif;
 font-size:12;
 font-weight:750;
-color:#DCE1DE;
+color:#DCE1DE; /* white */
 }
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #1F2421;
+  background-color: #1F2421; /* black */
   overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: #DCE1DE; /* text color is white */
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  font:'Lato', sans-serif;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: white; /* white background */
+  color: black; /* black text /*
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #04AA6D;
-  color: white;
+  background-color: #9CC5A1; /* soft green */
+  color: #DCE1DE; /* white */
 }
 
