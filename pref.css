@@ -10,7 +10,8 @@ white: DCE1DE
 
 
 body {
-background-color: #1F2421; /* black */
+/* background-color: #1F2421; /* black */ */
+background-image: url("night_sky.jpeg")
 }
 
 h1 {
