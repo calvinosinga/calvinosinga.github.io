@@ -10,7 +10,7 @@ white: DCE1DE
 
 
 body {
-/* background-color: #1F2421; /* black */ */
+/* background-color: #1F2421; /* black */
 background-image: url('cosmic_web.png')
 }
 
@@ -34,7 +34,7 @@ background-image: url('cosmic_web.png')
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: #49A078; /* seagreen background */
-  color: white; /* white text /*
+  color: white; /* white text */
 }
 
 /* Add a color to the active/current link */
