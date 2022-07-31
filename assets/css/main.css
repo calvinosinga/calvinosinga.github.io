@@ -1,5 +1,7 @@
-@import url("fontawesome-all.min.css");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+@import url("http://fonts.googleapis.com/css?family=Lato:400,700");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700,900");
+@import url("fontawesome-all.min.css");
 
 /*
 	Escape Velocity by HTML5 UP
@@ -98,9 +100,9 @@ input, select, textarea {
 	}
 
 	body, input, textarea, select {
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Lato', sans-serif;
 		font-weight: 400;
-		color: #919499;
+		color: #fefae0; /* color of body text */
 		font-size: 14pt;
 		line-height: 1.75em;
 		letter-spacing: 0.025em;
@@ -1672,8 +1674,8 @@ input, select, textarea {
 		input[type="reset"].style1,
 		button.style1,
 		.button.style1 {
-			background: #e97770 url("images/overlay.png");
-			color: #fff;
+			background: #dda15e;
+			color: #283618;
 		}
 
 			input[type="button"].style1:hover,
@@ -1681,7 +1683,7 @@ input, select, textarea {
 			input[type="reset"].style1:hover,
 			button.style1:hover,
 			.button.style1:hover {
-				background-color: #f98780;
+				background-color: #bc6c25;
 			}
 
 			input[type="button"].style1:active,
@@ -1689,7 +1691,7 @@ input, select, textarea {
 			input[type="reset"].style1:active,
 			button.style1:active,
 			.button.style1:active {
-				background-color: #d96760;
+				background-color: #bc6c25;
 			}
 
 		input[type="button"].style2,
@@ -1850,7 +1852,7 @@ input, select, textarea {
 		}
 
 		.feature-list h3 {
-			color: #e97770 !important;
+			color: #3c6e71 !important;
 			margin: -0.35em 0 0.75em 0;
 			font-size: 1.15em;
 			letter-spacing: 0.05em;
@@ -1895,7 +1897,7 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
+			font-family: 'Montserrat', sans-serif;
 			font-weight: 400;
 		}
 
@@ -1913,7 +1915,7 @@ input, select, textarea {
 		}
 
 		.icon.brands:before {
-			font-family: 'Font Awesome 5 Brands';
+			font-family: 'Montserrat', sans-serif;
 		}
 
 /* Box */
@@ -1967,7 +1969,7 @@ input, select, textarea {
 			display: block;
 			font-weight: 700;
 			letter-spacing: 0.25em;
-			font-size: 0.9em;
+			font-size: 1.25em;
 			width: 25em;
 			height: 3.25em;
 			top: -3.25em;
@@ -2002,13 +2004,13 @@ input, select, textarea {
 			}
 
 		.wrapper.style1 {
-			background: #e97770 url("images/overlay.png");
-			color: #eee;
+			background: #3d6185 url("images/overlay.png");
+			color: #fff;
 			color: rgba(255, 255, 255, 0.75);
 		}
 
 			.wrapper.style1 .title {
-				background: #e97770 url("images/overlay.png");
+				background: #3d6185 url("images/overlay.png");
 				color: #fff;
 			}
 
@@ -2017,26 +2019,29 @@ input, select, textarea {
 			}
 
 		.wrapper.style2 {
-			background: #fff;
+			background: #606c38 url("images/overlay.png");
 		}
 
 			.wrapper.style2 .title {
-				background: #fff;
-				color: #484d55;
+				background: #606c38 url("images/overlay.png");
+				color:#e0ae68;
 			}
 
+			/* .wrapper.style2 h1, .wrapper.style2 h2, .wrapper.style2 h3 {
+				color: #a68a64
+			} */
 		.wrapper.style3 {
-			background: #f3f3f3 url("images/overlay.png");
+			background: #000000 url("images/overlay.png");
 		}
 
 			.wrapper.style3 .title {
-				background: #f3f3f3 url("images/overlay.png");
-				color: #484d55;
+				background: #000000 url("images/overlay.png");
+				color: #606c38;
 			}
 
-			.wrapper.style3 .image {
+			/* .wrapper.style3 .image {
 				border: solid 10px #fff;
-			}
+			} */
 
 /* Page Wrapper */
 
@@ -2061,7 +2066,7 @@ input, select, textarea {
 		justify-content: center;
 		position: relative;
 		height: 24em;
-		background: url("../../images/banner.jpg") center center;
+		background: url("../../images/cosmic-web.jpg") center center;
 		background-size: cover;
 		padding: 0;
 	}
@@ -2261,7 +2266,7 @@ input, select, textarea {
 	}
 
 		#highlights .highlight h3 {
-			color: #e97770;
+			color: #606c38;
 			margin: 0 0 0.75em 0;
 			font-size: 1.15em;
 			letter-spacing: 0.05em;
@@ -2272,7 +2277,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background: #282b34 url("images/overlay.png");
+		background: #b38a58 url("images/overlay.png");
 		color: #eee;
 		color: rgba(255, 255, 255, 0.5);
 		padding-bottom: 6em;
@@ -2339,8 +2344,8 @@ input, select, textarea {
 			}
 
 		#footer .title {
-			background: #282b34 url("images/overlay.png");
-			color: #eee;
+			background: #b38a58 url("images/overlay.png");
+			color: #3c6e71;
 		}
 
 		#footer header.style1 {
@@ -2621,7 +2626,7 @@ input, select, textarea {
 						text-rendering: auto;
 						line-height: 1;
 						text-transform: none !important;
-						font-family: 'Font Awesome 5 Free';
+						font-family: 'Lato', sans-serif;
 						font-weight: 900;
 					}
 
@@ -2920,7 +2925,7 @@ input, select, textarea {
 					line-height: 1.25em;
 					padding: 1.25em;
 				}
-
+				
 		/* Features */
 
 			#features header.style1 {
