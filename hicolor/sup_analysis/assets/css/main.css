@@ -1189,6 +1189,7 @@ input, select, textarea {
 
 	.poptrox-popup {
 		background: rgba(31, 34, 36, 0.925);
+		margin-bottom:50%;
 		box-shadow: 0 1em 3em 0.5em rgba(0, 0, 0, 0.25);
 		cursor: default;
 	}
@@ -1280,6 +1281,7 @@ input, select, textarea {
 
 			.poptrox-popup .caption h2, .poptrox-popup .caption h3, .poptrox-popup .caption h4, .poptrox-popup .caption h5, .poptrox-popup .caption h6 {
 				margin: 0 0 0.5em 0;
+				display: none;
 			}
 
 			.poptrox-popup .caption p {
@@ -1635,8 +1637,10 @@ input, select, textarea {
 				-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 				background-position: center;
 				background-repeat: no-repeat;
-				background-size: cover;
+				background-size: contain;
+				background-color: black;
 				border: 0;
+				opacity: 0.2;
 				height: 100%;
 				left: 0;
 				position: absolute;
@@ -1647,7 +1651,7 @@ input, select, textarea {
 			#main .thumb > h2 {
 				pointer-events: none;
 				bottom: 1.875em;
-				font-size: 0.8em;
+				font-size: 1.5em;
 				left: 2.1875em;
 				margin: 0;
 				position: absolute;

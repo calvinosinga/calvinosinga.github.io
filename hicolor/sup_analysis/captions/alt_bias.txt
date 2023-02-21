@@ -1,0 +1,8 @@
+Compares the observer bias (top) and theoretical bias (bot)
+with respect to matter of blue and red galaxies and HI. The
+dip feature analyzed in the paper deepens when using the 
+bias more resistant to stochasticity. Additionally, the dip
+feature develops in the blue galaxies at $z = 0$ and in the
+HI bias at $z = 0.5$. The blue galaxies more strongly
+cluster than HI, so they will resist the subtle effects
+caused by galaxy quenching more effectively.
