@@ -2991,5 +2991,5 @@ input, select, textarea {
 	display: flex;
 	align-items: center;
 	flex-direction: row;
-	gap: 20px;
+	gap: 10vw;
 }
