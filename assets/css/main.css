@@ -2063,8 +2063,8 @@ input, select, textarea {
 		justify-content: center;
 		position: relative;
 		height: 24em;
-		background: url("../../images/cosmic-web.jpg") center center;
-		background-size: cover;
+		/* background: url("../../images/benedikt_web_vis.mp4") center center;
+		background-size: cover; */
 		padding: 0;
 	}
 
@@ -3026,3 +3026,11 @@ input, select, textarea {
 				color: blue;
 				text-decoration: none;
 			}
+
+#background-video {
+	object-fit: cover;
+	width: 100vh;
+	position:absolute;
+	width: 100%;
+	z-index: -1;
+}
