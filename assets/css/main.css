@@ -183,7 +183,6 @@ input, select, textarea {
 		max-width: 100%;
 		width: 68em;
 	}
-
 		@media screen and (max-width: 1680px) {
 
 			.container {
@@ -2987,9 +2986,43 @@ input, select, textarea {
 
 	}
 
-.image-txt-container {
-	display: flex;
-	align-items: center;
-	flex-direction: row;
-	gap: 10%;
-}
+	/* Container that pairs text and an image */
+	.image-txt-container {
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+		gap: 10%;
+	}
+
+	/* publication list */
+
+	#publist {
+		font-size: large;
+		text-align: left;
+		color: #3c6e71;
+	}
+		#publist .authors {
+			margin: 0;
+			color: #3c6e71;
+		}
+
+		#publist .pubtitle {
+			font-style: italic;
+			color: #fff;
+			text-align: left;
+			font-size: medium;
+			padding-left: 2em;
+			margin: 0;
+		}
+		#publist .locations{
+			margin-top: 0;
+			margin-bottom: 2em;
+			padding-left: 2em;
+			font-size: medium;
+			color: #fff;
+
+		}
+			#publist .locations a {
+				color: blue;
+				text-decoration: none;
+			}
