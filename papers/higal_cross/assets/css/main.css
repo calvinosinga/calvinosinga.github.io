@@ -1270,7 +1270,8 @@ input, select, textarea {
 			background-image: -webkit-linear-gradient(to top, rgba(16,16,16,0.45) 25%, rgba(16,16,16,0) 100%);
 			background-image: -ms-linear-gradient(to top, rgba(16,16,16,0.45) 25%, rgba(16,16,16,0) 100%);
 			background-image: linear-gradient(to top, rgba(16,16,16,0.45) 25%, rgba(16,16,16,0) 100%);
-			bottom: 0;
+			background-color: black;
+			top: 100%;
 			cursor: default;
 			left: 0;
 			position: absolute;
@@ -1286,6 +1287,8 @@ input, select, textarea {
 
 			.poptrox-popup .caption p {
 				color: #ffffff;
+				text-align: center;
+				font-size: large;
 			}
 
 		.poptrox-popup .loader {
@@ -1632,7 +1635,7 @@ input, select, textarea {
 				top: 0;
 				width: 100%;
 			}
-
+			
 			#main .thumb > .image {
 				-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 				background-position: center;
@@ -1661,6 +1664,7 @@ input, select, textarea {
 
 			#main .thumb > p {
 				display: none;
+
 			}
 
 		#main:after {

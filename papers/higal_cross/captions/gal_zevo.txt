@@ -1,9 +1,0 @@
-The redshift evolution of the blue (left), red (center),
-and all (right) galaxy auto powers. The galaxy
-auto power increases with time, which is the
-expected evolution for power spectra.
-
-However, the both of the colored auto powers decrease with time
-between the latter two snapshots. This is also seen in the
-cross-powers, but this removes the influence of the relationship
-between galaxy color and HI, at least directly.
