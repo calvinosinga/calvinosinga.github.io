@@ -1,0 +1,18 @@
+Analyzes the differences between our definitions of red and blue galaxies and star-forming and quiescent galaxies.
+Red galaxies are not necessarily quenched; a population of active galaxies appear red due to abundant
+dust. Donnari et al. 2019 separates galaxies into star-forming and quenched populations via lines in the
+(V-J) - (U-V) plane (see their figure 1). We represent a galaxy's position in the UVJ plane as its distance
+to the threshold separating active and quenched galaxies (x-axis), where negative distances indicate quenched galaxies.
+The y-axis contains the fiducial $g - r$ cuts (which change with redshfit) used in our analysis. Thresholds from both
+Donnari et al. 2019 and our analysis are represented with orange lines.
+
+The 2D histograms show how the galaxy populations from $z = 0$ (green background) and $z = 1$ (brown background)
+fall into the UVJ and $g - r$ planes. Galaxies in the upper left quadrant are red and quenched, galaxies in the
+lower right are blue and star-forming. The other two quadrants are galaxies that color doesn't accurately identify.
+The effect of the misidentification is seen in the 1D histograms along each axis. The panel above shows the UVJ
+distribution in white, and then the UVJ distribution of galaxies we identified as red in red. The number of
+star-forming galaxies misidentified as red are negligible at both redshifts. However, at $z > 1$ this is no
+longer the case (see Donnari et al. 2019). The panels to the right of the 2D histograms show the $g - r$
+distributions for all galaxies (white) and quiescent galaxies (pink). Again, galaxies we identify as blue
+that are quenched is negligible, so at the redshifts we examine in our analysis the distinction between
+"red and blue" and "star-forming and quiescent" is negligible.

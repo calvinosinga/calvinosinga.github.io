@@ -1,0 +1,6 @@
+Color-mass plane of galaxies at $z$ = 0, 0.5, and 1 for centrals, satellites
+and both. The aspect of this plot that I wanted to emphasize was the time
+evolution of the quenched centrals, particularly the lack of low-mass ones
+at high redshift. This population clearly fills in quickly, indicating that
+at more recent redshifts the quenching populations consists of considerably
+smaller galaxies.

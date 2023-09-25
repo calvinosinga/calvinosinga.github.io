@@ -11,7 +11,7 @@
 		<title>Calvin Osinga</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/main.css"/>
 	</head>
 	<body class="homepage is-preload">
 		<div id="page-wrapper">
@@ -20,7 +20,7 @@
 				<section id="header" class="wrapper">
 					<!-- TODO: adjust to a single image for mobile users-->
 					<video id="background-video" autoplay loop muted poster="images/poster.png">
-						<source src="images/benedikt_web_vis.mp4" type="video/mp4">
+						<source src="images/cosmic_web_vis.mp4" type="video/mp4">
 					</video>
 					<!-- Logo -->
 						<div id="logo">
@@ -33,9 +33,9 @@
 						<nav id="nav">
 							<ul>
 								<li class="current"><a href="index.html">Home</a></li>
-								<li><a href="hicolor/hicolor.html">Hydrogen and Galaxies</a></li>
-								<li><a href="orbit_infall/orbit_infall.html">Dynamic Satellites</a></li>
-								<li><a href="nonsph_halos/nonsph.html">Non-spherical Halos</a></li>
+								<li><a href="lss/lss.html">Mapping the Universe</a></li>
+								<li><a href="dm/dm.html">Dark Matter</a></li>
+								<li><a href="galfe/galfe.html">Galaxy Evolution</a></li>
 								<li><a href="bio/page.html">About Me</a></li>
 							</ul>
 						</nav>
@@ -49,14 +49,20 @@
 				<div class="title">About Me</div>
 				<div class="container">
 					<div class="image-txt-container">
-						<img src="images/window.jpg" style="width:30%; object-fit: contain;">
-						<p class="style1" style="width: 65%; font-size: 100%; overflow-y: scroll; max-height: 25em;">
+						<a class="image left" style="width: 200%;">
+							<img src="images/window.jpg" style="object-fit: contain;">
+						</a>
+						<!-- <img src="images/window.jpg" style="width:30%; object-fit: contain;"> -->
+						<!-- <p class="style1" style="width: 65%; font-size: 100%; overflow-y: scroll; max-height: 30em;"> -->
+						<p class="style1" style="font-size: 100%;">
 							I'm a PhD candidate in the Astronomy 
 							Department at University of Maryland - College 
 							Park. Broadly, my research seeks to answer 
 							questions about why our Universe resembles
 							the background video above, with a particular interest
-							in dark matter and dark energy! <br><br>
+							in dark matter and dark energy! I include introductions to these topics 
+							and how my research
+							fits into them below. <br><br>
 							
 							I currently work with Prof.
 							<a href="www.benediktdiemer.com">Benedikt Diemer</a>
@@ -67,15 +73,9 @@
 							Professors <a href="https://cmb.physics.wisc.edu/">Peter Timbie</a>
 							and <a href="https://www.madastrodynamics.com/research">Elena D'Onghia</a>
 							at the University of Wisconsin - Madison on those topics. Outside of research,
-							I'm particularly passionate about improving public
-							speaking and verbal communication skills in science.<br><br>
+							I invest my time building support networks for neurodivergent individuals
+							and improving science communication.
 
-							The research section below includes links to 
-							pages with brief and accessible
-							explanations for why these topics are important and
-							how my research fits into them. I also include
-							a list of my publications and links to additional figures
-							when appropriate.
 							If you want to get to know me a little better, I include some
 							personal interests in the 
 							<a href="bio/page.html">About Me</a> page.
@@ -97,102 +97,65 @@
 						<div class="row aln-center">
 							<div class="col-4 col-12-medium">
 								<section class="highlight">
-									<a href="hicolor/hicolor.html" class="image featured"><img src="images/tng100_HI+blue+red_slice.jpeg" alt="" /></a>
-									<h3><a href="hicolor/hicolor.html">Building Maps of the Universe</a></h3>
+									<a href="lss/lss.html" class="image featured"><img src="images/tng100_HI+blue+red_slice.jpeg" alt="" /></a>
+									<h3><a href="lss/lss.html">Mapping the Universe</a></h3>
 									<p>
-										
+										The mysterious force that drives the accelerating expansion
+										of the Universe known as dark energy remains outside our
+										current understanding of physics. Maps of
+										the universe allows us to track dark energy's behavior,
+										bringing us closer to solving this puzzle. 
 									</p>
 									<ul class="actions">
-										<li><a href="hicolor/hicolor.html" class="button style1">Learn More</a></li>
+										<li><a href="lss/lss.html" class="button style1">Learn More</a></li>
+									</ul>
+								</section>
+							</div>
+							<div class="col-4 col-12-medium">
+								<section class="highlight">
+									<a href="dm/dm.html" class="image featured">
+										<img src="images/halo_poster.png"/>
+									</a>
+									<h3><a href="dm/dm.html">Dark Matter</a></h3>
+									<p>
+										Dark matter, as it collapses under its own
+										gravity, collects into approximately spherical 
+										structures we call "halos". These halos are
+										the building blocks for our Universe, and 
+										serve as the foundation for many cosmological
+										theories.
+										
+
+									</p>
+									<ul class="actions">
+										<li><a href="dm/dm.html" class="button style1">Learn More</a></li>
+									</ul>
+								</section>
+							</div>
+							<div class="col-4 col-12-medium">
+								<section class="highlight">
+									<a href="galfe/galfe.html" class="image featured"><img src="images/gal_dm_halo.jpeg" alt="" /></a>
+									<h3><a href="galfe/galfe.html">Galaxy Evolution</a></h3>
+									<p>
+										Dark matter halos guide 
+										the formation and evolution of galaxies embedded within them. As
+										a result, the properties of galaxies and their 
+										host dark matter halos are inextricably tied. This link allows
+										us to infer properties about the halos from the galaxies inhabiting
+										them.
+
+									</p>
+									<ul class="actions">
+										<li><a href="galfe/galfe.html" class="button style1">Learn More</a></li>
 									</ul>
 								</section>
 							</div>
 
-							<div class="col-4 col-12-medium">
-								<section class="highlight">
-									<a href="hicolor/hicolor.html" class="image featured"><img src="images/tng100_HI+blue+red_slice.jpeg" alt="" /></a>
-									<h3><a href="hicolor/hicolor.html">Galaxy Formation and Evolution</a></h3>
-									<p>
-										<!-- Future experiments intend to use hydrogen to map the large-scale structure
-										of the universe and constrain the behavior of dark energy. We use computer
-										simulations to understand what how the processes within galaxies 
-										may complicate this future technique. In particular, we focus on how the
-										color of a galaxy, which reflects its state of star formation, influences
-										the universal distribution of hydrogen. -->
-									</p>
-									<ul class="actions">
-										<li><a href="hicolor/hicolor.html" class="button style1">Learn More</a></li>
-									</ul>
-								</section>
-							</div>
-
-							<div class="col-4 col-12-medium">
-								<section class="highlight">
-									<a href="hicolor/hicolor.html" class="image featured"><img src="images/tng100_HI+blue+red_slice.jpeg" alt="" /></a>
-									<h3><a href="hicolor/hicolor.html">Dark Matter</a></h3>
-									<p>
-										
-									</p>
-									<ul class="actions">
-										<li><a href="hicolor/hicolor.html" class="button style1">Learn More</a></li>
-									</ul>
-								</section>
-							</div>
-							<!-- ONCE THE ACTUAL PAGES ARE FINISHED, UNCOMMENT THESE LINES
-								<div class="col-4 col-12-medium">
-								<section class="highlight">
-									<a href="orbit_infall/orbit_infall.html" class="image featured"><img src="images/orbit-infall.jpeg" alt="" /></a>
-									<h3><a href="orbit_infall/orbit_infall.html">Dynamic Satellites</a></h3>
-									<p>
-										Current halo boundaries often mistakenly label satellites as isolated halos.
-										The halo boundaries are arbitrarily defined as some overdense structure with
-										respect to the density of the universe, which does physically represent any
-										properties within the halos themselves.
-										
-									</p>
-									<ul class="actions">
-										<li><a href="orbit_infall/orbit_infall.html" class="button style1">Learn More</a></li>
-									</ul>
-								</section>
-							</div>
-							<div class="col-4 col-12-medium">
-								<section class="highlight">
-									<a href="nonsph_halos/nonsph.html" class="image featured"><img src="images/nonsp_halo.jpeg" alt="" /></a>
-									<h3><a href="nonsph_halos/nonsph.html">Non-Spherical Halos</a></h3>
-									<p>
-										Also in progress! For now, enjoy the drawing
-										I made in 30 seconds as a placeholder
-									</p> 
-									<ul class="actions">
-										<li><a href="nonsph_halos/nonsph.html" class="button style1">Learn More</a></li>
-									</ul>
-								</section>
-							</div> -->
 						</div>
 					</div>
 				</section>
 			
-			
-			<!-- <section id="highlights" class="wrapper style2">
-				<div class="title">Resources</div>
-				<div class="container">
-					<div class="row aln-center">
-						<div class="col-4 col-12-medium">
-							<section class="highlight">
-								<a href="software/figrid/page.html" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-								<h3><a href="papers/papers_home.html" style="color:#e0ae68">List of Papers</a></h3>
-								<p>
-									Subhalo and PARticle Trajectory Analysis
-								</p>
-								<ul class="actions">
-									<li><a href="software/sparta/page.html" class="button style2">Learn More</a></li>
-								</ul>
-							</section>
-						</div>
-
-					</div>
-				</div>
-			</section> -->
+		
 
 			<!-- Footer -->
 			
