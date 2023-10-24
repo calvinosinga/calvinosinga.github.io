@@ -1,0 +1,1 @@
+Tests of the convergence of cross-powers with different grids. The grids lie directly on top of one another, thus we conclude that our results are converged.

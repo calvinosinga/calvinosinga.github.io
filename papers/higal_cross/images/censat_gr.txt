@@ -1,0 +1,4 @@
+Color-mass plane of galaxies at $z$ = 0, 0.5, and 1 for centrals, satellites and both. The red line corresponds to
+the fiducial g-r cut made in the main paper for each redshift, where galaxies lying above the cut are red and below
+blue. Red galaxies poorly occupy the regime around $M_\star = 10^{10} M_\odot$, particularly at $z$ = 1. This 
+regime starts to fill in as less massive centrals and more massive satellites quench at later redshifts.

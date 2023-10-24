@@ -1,0 +1,6 @@
+Similar to Fig. 8 from original paper, but for $z = 0.5$. We do not complete the same analysis at $z = 1$ due to the
+small number of red galaxies. The trends in the all- and blue galaxy subsamples are very similar at $z = 0.5$ as $z = 0$.
+However, the red galaxy clustering in the stellar mass subsamples changes between the two redshifts. The two lower mass
+bins for red galaxies cluster more strongly with HI at $z = 0.5$ than at $z = 0$, which provides some clues as to what
+kinds of galaxies experience the most gas loss between those redshifts. Red galaxies in the lowest stellar mass bin
+correlate notably more with HI at $z = 0.5$ than $z = 0$. 

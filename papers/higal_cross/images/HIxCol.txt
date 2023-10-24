@@ -1,0 +1,9 @@
+Cross-power spectra between HI and galaxies of different colors, split into centrals and satellites at $z = 0$.
+There are some interesting trends; we start with the blue galaxies. At all stellar mass bins, blue satellites
+cluster more with HI than centrals do. However, due to the small blue satellite fraction, blue centrals 
+dominate the contribution to the cross-power spectrum at each bin. The all-galaxy cross-power spectra receive
+significant contributions from both central and satellite galaxies in all stellar mass ranges, although the
+centrals contribute more at higher stellar masses. Red satellites completely dominate the cross-power spectra
+calculated using the smaller stellar mass ranges, as is seen by the proximity of the satellite-HI cross-power
+spectrum to the one calculated using both centrals and satellites. Only in the highest stellar mass range
+probed here, do we find that red centrals start contributing significantly to the HI-red cross-power spectrum.

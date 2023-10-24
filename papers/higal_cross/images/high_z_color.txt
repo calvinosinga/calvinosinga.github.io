@@ -1,0 +1,13 @@
+Color distribution for galaxies
+at $z$ = 2. The bimodal
+distribution is not clear and
+does not accurately reflect
+that seen in observations 
+(Whitaker+15, Kreik+15),
+although this may be because of
+selection biases. In any case,
+only having a few hundred red
+galaxies may lead to shot noise
+issues. Thus we do not extend
+our analysis to redshifts
+beyond $z$ = 1.

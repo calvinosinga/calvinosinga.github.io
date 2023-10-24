@@ -1,0 +1,4 @@
+The auto power spectra of galaxies within a particular HI bin, as a function of redshift. Interestingly, galaxies in 
+the largest HI mass bin are the only ones that cluster less with time - the other two bins have negligible changes in
+their clustering with time. This suggests that the baryonic effects that cause the inverted redshift evolution of the
+clustering of HI occurs largely in galaxies with HI masses $\geq 10^9 M_\odot$.

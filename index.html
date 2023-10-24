@@ -6,7 +6,6 @@
 -->
 
 <html>
-	<!--TODO: update the website header so the image is less pixelated-->
 	<head>
 		<title>Calvin Osinga</title>
 		<meta charset="utf-8" />
@@ -27,15 +26,19 @@
 							<h1>Calvin Osinga</h1>
 							<p>Ph.D. Candidate</p>
 						</div>
-
+						<p style="text-align: right; opacity: 0.5; font-size: smaller; position: absolute; bottom: 0%; right: 1%;">
+							Philip Mansfield & Benedikt Diemer
+						</p>
 					
 					<!-- Nav -->
 						<nav id="nav">
 							<ul>
 								<li class="current"><a href="index.html">Home</a></li>
-								<li><a href="lss/lss.html">Mapping the Universe</a></li>
-								<li><a href="dm/dm.html">Dark Matter</a></li>
-								<li><a href="galfe/galfe.html">Galaxy Evolution</a></li>
+								
+								<li><a href="topics/lss/lss.html">Mapping the Universe</a></li>
+								<li><a href="topics/dm/dm.html">Dark Matter</a></li>
+								<li><a href="topics/galfe/galfe.html">Galaxy Evolution</a></li>
+									
 								<li><a href="bio/page.html">About Me</a></li>
 							</ul>
 						</nav>
@@ -44,109 +47,118 @@
 
 
 			<!-- Intro -->
-			
-			<section id="intro" class="wrapper style1">
+			<section id="highlights" class="wrapper style1">
 				<div class="title">About Me</div>
 				<div class="container">
-					<div class="image-txt-container">
-						<a class="image left" style="width: 200%;">
-							<img src="images/window.jpg" style="object-fit: contain;">
-						</a>
-						<!-- <img src="images/window.jpg" style="width:30%; object-fit: contain;"> -->
-						<!-- <p class="style1" style="width: 65%; font-size: 100%; overflow-y: scroll; max-height: 30em;"> -->
-						<p class="style1" style="font-size: 100%;">
-							I'm a PhD candidate in the Astronomy 
-							Department at University of Maryland - College 
-							Park. Broadly, my research seeks to answer 
-							questions about why our Universe resembles
-							the background video above, with a particular interest
-							in dark matter and dark energy! I include introductions to these topics 
-							and how my research
-							fits into them below. <br><br>
-							
-							I currently work with Prof.
-							<a href="www.benediktdiemer.com">Benedikt Diemer</a>
-							researching a better framework to study dark matter 
-							in universe-scale simulations.
-							I'm also interested in work drawing maps of the universe and 
-							galaxy formation and evolution. In the past, I have worked with
-							Professors <a href="https://cmb.physics.wisc.edu/">Peter Timbie</a>
-							and <a href="https://www.madastrodynamics.com/research">Elena D'Onghia</a>
-							at the University of Wisconsin - Madison on those topics. Outside of research,
-							I invest my time building support networks for neurodivergent individuals
-							and improving science communication.
+					<div class="row aln-center">
+						<div class="col-6">
+							<section class="highlight" style="text-align: center;">
+								<a class="image featured">
+									<img src="images/window.jpg" style="width:50%; display: inline-block;"/>
+								</a>
+								
+								<ul class="actions">
+									<li><a href="bio/page.html" class="button style2 large">About Me</a></li>
+									<li><a class="button style2 large">CV</a></li>
+								</ul>
+							</section>
+						</div>
+						<div class="col-6">
+							<section class="highlight">
+								<p>
+									I'm a PhD candidate in the Astronomy 
+									Department at University of Maryland - College 
+									Park. Broadly, my research seeks to answer 
+									questions about why our Universe resembles
+									the background video above, with a particular interest
+									in dark matter and dark energy! <br><br>
+									
+									I currently work with Prof.
+									<a class="link" href="https://www.benediktdiemer.com">Benedikt Diemer</a>
+									researching a better framework to study dark matter 
+									in universe-scale simulations.
+									I'm also interested in work drawing maps of the universe and 
+									galaxy formation and evolution. In the past, I have worked with
+									Professors <a class="link" href="https://cmb.physics.wisc.edu/">Peter Timbie</a>
+									and <a class="link" href="https://www.madastrodynamics.com/research">Elena D'Onghia</a>
+									at the University of Wisconsin - Madison on those topics. <br><br>
 
-							If you want to get to know me a little better, I include some
-							personal interests in the 
-							<a href="bio/page.html">About Me</a> page.
-						</p>
+									I include some
+									personal interests and service work outside of research on my 
+									<a class="link" href="bio/page.html">About Me</a> page.
+									The <span class="keyword">Research</span> section
+									below includes approachable summaries of the research I do,
+									intended for audiences unfamiliar with astronomy. <span class="keyword"> Publications</span>
+									contains a list of my papers, ordered from
+									latest to earliest, and contains various links to find them and 
+									supplementary materials for those papers.
+								</p>
+							</section>
+						</div>
 					</div>
-					<!-- TODO add CV here-->
-					<ul class="actions">
-						<li><a href="bio/page.html" class="button style2 large">About Me</a></li>
-						<!-- <li><a class="button style3 large">CV</a></li> -->
-					</ul>
 				</div>
 			</section>
+			
 
-
-			<!-- Highlights -->
 				<section id="highlights" class="wrapper style3">
 					<div class="title">Research</div>
 					<div class="container">
 						<div class="row aln-center">
 							<div class="col-4 col-12-medium">
 								<section class="highlight">
-									<a href="lss/lss.html" class="image featured"><img src="images/tng100_HI+blue+red_slice.jpeg" alt="" /></a>
-									<h3><a href="lss/lss.html">Mapping the Universe</a></h3>
+									<a href="topics/lss/lss.html" class="image featured">
+										<img src="images/tng100_HI+blue+red_slice.jpeg">
+									</a>
+									<h3><a href="topics/lss/lss.html">Mapping the Universe</a></h3>
 									<p>
 										The mysterious force that drives the accelerating expansion
 										of the Universe known as dark energy remains outside our
-										current understanding of physics. Maps of
-										the universe allows us to track dark energy's behavior,
-										bringing us closer to solving this puzzle. 
+										current understanding of physics. However, we find evidence 
+										for its existence in surveys of the distribution of matter. Maps of
+										the universe allow us to track dark energy's behavior,
+										bringing us closer to unraveling this riddle.
+
 									</p>
 									<ul class="actions">
-										<li><a href="lss/lss.html" class="button style1">Learn More</a></li>
+										<li><a href="topics/lss/lss.html" class="button style1">Learn More</a></li>
 									</ul>
 								</section>
 							</div>
 							<div class="col-4 col-12-medium">
 								<section class="highlight">
-									<a href="dm/dm.html" class="image featured">
+									<a href="topics/dm/dm.html" class="image featured">
 										<img src="images/halo_poster.png"/>
 									</a>
-									<h3><a href="dm/dm.html">Dark Matter</a></h3>
+									<h3>Dark Matter</h3>
 									<p>
-										Dark matter, as it collapses under its own
-										gravity, collects into approximately spherical 
-										structures we call "halos". These halos are
-										the building blocks for our Universe, and 
-										serve as the foundation for many cosmological
-										theories.
-										
-
+										The dynamics of the matter in galaxies visible to us can
+										only be possible given the existence of a dark sector of matter
+										we cannot see. As of yet, no satisfactory dark matter candidate has
+										been provided to explain this observed behavior. We use computer
+										simulations to study how different dark matter candidates imprint
+										on visible matter, extracting predictions which can be used to test
+										viable dark matter candidates. <br>
+										<span class="credit">(Credit: Spencer Scott)</span>
 									</p>
 									<ul class="actions">
-										<li><a href="dm/dm.html" class="button style1">Learn More</a></li>
+										<li><a href="topics/dm/dm.html" class="button style1">Learn More</a></li>
 									</ul>
 								</section>
 							</div>
 							<div class="col-4 col-12-medium">
 								<section class="highlight">
-									<a href="galfe/galfe.html" class="image featured"><img src="images/gal_dm_halo.jpeg" alt="" /></a>
-									<h3><a href="galfe/galfe.html">Galaxy Evolution</a></h3>
+									<a href="topics/galfe/galfe.html" class="image featured"><img src="images/gal_dm_halo.jpeg" alt="" /></a>
+									<h3><a href="topics/galfe/galfe.html">Galaxy Evolution</a></h3>
 									<p>
-										Dark matter halos guide 
-										the formation and evolution of galaxies embedded within them. As
-										a result, the properties of galaxies and their 
-										host dark matter halos are inextricably tied. This link allows
-										us to infer properties about the halos from the galaxies inhabiting
-										them.
-
+										Dark matter forms the seeds (called "halos") that eventually grow into galaxies. 
+										Thus, the properties of dark matter halos and their embedded galaxies are 
+										inevitably linked. Studying how dark matter shapes evolution of
+										galaxies is the first step to understanding the physics responsible for the 
+										intricate panoply of galaxies we 
+										observe today.
 									</p>
 									<ul class="actions">
-										<li><a href="galfe/galfe.html" class="button style1">Learn More</a></li>
+										<li><a href="topics/galfe/galfe.html" class="button style1">Learn More</a></li>
 									</ul>
 								</section>
 							</div>
@@ -155,13 +167,55 @@
 					</div>
 				</section>
 			
-		
+				<!-- <section id="highlights" class="wrapper style3">
+					<div class="title">Research</div>
+					<div class="container">
+						<div class="row aln-center">
+							<div class="col-4 col-12-medium">
+								<section class="highlight">
+									<a href="research/HIim/HIim.html" class="image featured"><img src="images/tng100_HI+blue+red_slice.jpeg" alt="" /></a>
+									<h3><a href="research/HIim/HIim.html">HI Intensity Mapping</a></h3>
+									<p style="line-height: 1.5;">
 
+
+									</p>
+									<ul class="actions">
+										<li><a href="research/HIim/HIim.html" class="button style1">Learn More</a></li>
+									</ul>
+								</section>
+							</div>
+							<div class="col-4 col-12-medium">
+								<section class="highlight">
+									<a href="research/dynsub/dynsub.html" class="image featured">
+										<img src="images/Screenshot 2023-09-26 at 13-41-49 Screenshot.png"/>
+									</a>
+									<h3><a href="research/dynsub/dynsub.html">Dynamical Subhalos</a></h3>
+									<ul class="actions">
+										<li><a href="research/dynsub/dynsub.html" class="button style1">Learn More</a></li>
+									</ul>
+								</section>
+							</div>
+							<div class="col-4 col-12-medium">
+								<section class="highlight">
+									<a href="research/hshapes/hshapes.html" class="image featured"><img src="images/halo_poster.png" alt="" /></a>
+									<h3><a href="research/hshapes/hshapes.html">Halo Shapes</a></h3>
+									<p style="font-size: small; color: gray">(Credit: Spencer Scott)</p>
+									<ul class="actions">
+										<li><a href="research/hshapes/hshapes.html" class="button style1">Learn More</a></li>
+									</ul>
+								</section>
+							</div>
+
+						</div>
+					</div>
+				</section> -->
+			
 			<!-- Footer -->
 			
 				<section id="footer" class="wrapper">
 					<div class="title">Publications</div>
 					<div class="container">
+						
 						<ol reversed id="publist">
 							<!-- Template for publications
 							<li>
@@ -185,6 +239,30 @@
 								</p>
 							</li> 
 							-->
+							<li>
+								<p class="authors">
+									Osinga, Diemer, Villaescusa-Navarro, D'Onghia, Timbie
+								</p>
+								<p class="pubtitle">
+									Atomic Hydrogen Shows its True Colours: Correlations between HI and Galaxy Colour in Simulations
+								</p>
+								<p class="locations">
+									<!-- [<a href="LINK TO ARXIV">
+										arXiv
+									</a>]
+									[<a href="LINK TO ads">
+										ads
+									</a>]
+									[<a href="LINK TO JOURNAL">
+										JOURNAL NAME
+									</a>] -->
+									[<a href="papers/higal_cross/sup_analysis.html">
+										Supplementary Materials
+									</a>]
+									
+								</p>
+							</li> 
+							
 							<li>
 								<p class="authors">
 									<a style="color: inherit;" href="https://tianlai.bao.ac.cn/">Tianlai Collaboration</a>
@@ -232,7 +310,6 @@
 						<div id="copyright">
 							<ul>
 								<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-								<li>Video: <a href="www.benediktdiemer.com/visualization/movies/">Diemer & Mansfield</a></li>
 							</ul>
 						</div>
 					</div>

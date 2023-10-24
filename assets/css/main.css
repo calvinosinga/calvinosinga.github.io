@@ -124,7 +124,6 @@ input, select, textarea {
 		-ms-transition: color .25s ease-in-out;
 		transition: color .25s ease-in-out;
 		text-decoration: underline;
-		color: #717479;
 	}
 
 		a:hover {
@@ -1621,7 +1620,6 @@ input, select, textarea {
 			width: 100%;
 			margin: 0 0 2em 0;
 		}
-
 /* Button */
 
 	input[type="button"],
@@ -2003,9 +2001,8 @@ input, select, textarea {
 			}
 
 		.wrapper.style1 {
-			background: #06391D url("images/overlay.png");
 			color: #fff;
-			color: rgba(255, 255, 255, 0.75);
+			background: #06391D url("images/overlay.png");
 		}
 
 			.wrapper.style1 .title {
@@ -2013,23 +2010,73 @@ input, select, textarea {
 				color: #fff;
 			}
 
-			.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6, .wrapper.style1 strong, .wrapper.style1 b, .wrapper.style1 a {
+			.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6, .wrapper.style1 strong, .wrapper.style1 b, .wrapper.style1 a{
 				color: #fff;
+			}
+			
+			.wrapper.style1 p {
+				color:rgba(252, 252, 252, 0.75);
+				font-size: 100%;
+				line-height: 1.75;
+			}
+
+			.wrapper.style1 .link {
+				color: #3d6185;
+				text-decoration: underline;
+			}
+			
+			.wrapper.style1 .credit{
+				font-size: small;
+				color: gray;
+			}
+			
+			.wrapper.style1 .keyword {
+				color: #dda15e;
+				font-weight: bold;
 			}
 
 		.wrapper.style2 {
-			background: #606c38 url("images/overlay.png");
+			color: white;
+			background: #3d6185 url("images/overlay.png");
 		}
 
 			.wrapper.style2 .title {
-				background: #606c38 url("images/overlay.png");
-				color:#fff;
+				background: #3d6185 url("images/overlay.png");
+				color:#fffff2;
 			}
 
-			.wrapper.style2 h1, .wrapper.style2 h2, .wrapper.style2 h3 {
-				color: #a68a64
+			.wrapper.style2 h1, .wrapper.style2 h2, .wrapper.style2 h3{
+				color: #06391D;
+				font-size: large;
+				text-align: center;
+				font-weight: bold;
 			}
+			
+
+
+			.wrapper.style2 p {
+				color:rgba(252, 252, 252, 0.75);
+				text-align: center;
+				font-size: 100%;
+				line-height: 1.5;
+			}
+
+			.wrapper.style2 .link {
+				color: #dda15e;
+				text-decoration: underline;
+			}
+
+			.wrapper.style2 .credit {
+				font-size: small;
+				color: gray;
+			}
+			
+			.wrapper.style2 .keyword {
+				color: #dda15e;
+			}
+
 		.wrapper.style3 {
+			color: white;
 			background: #000000 url("images/overlay.png");
 		}
 
@@ -2038,8 +2085,67 @@ input, select, textarea {
 				color: #606c38;
 			}
 			
+			.wrapper.style3 h1, .wrapper.style3 h2, .wrapper.style3 h3 {
+				color: #606c38;
+			}
 
+			.wrapper.style3 p {
+				color: white;
+				text-align: center;
+				font-size: 100%;
+				line-height: 1.5;
 
+			}
+
+			.wrapper.style3 .link {
+				color: #3d6185;
+				text-decoration: underline;
+			}
+
+			.wrapper.style3 .credit {
+				font-size: small;
+				color: gray;
+			}
+			
+			.wrapper.style3 .keyword {
+				color: #dda15e;
+			}
+		
+		.wrapper.style4 {
+			color: black;
+			background: #b38a58 url("images/overlay.png") ;
+		}
+			.wrapper.style4 .title {
+				background: #b38a58 url("images/overlay.png");
+				color: #3d6185;
+			}
+			
+			.wrapper.style4 h1, .wrapper.style4 h2, .wrapper.style4 h3 {
+				color: #3d6185;
+			}
+
+			.wrapper.style4 p {
+				color: black;
+				text-align: center;
+				font-size: 100%;
+				line-height: 1.5;
+
+			}
+
+			.wrapper.style4 .link {
+				color: #3d6185;
+				text-decoration: underline;
+			}
+
+			.wrapper.style4 .credit {
+				font-size: small;
+				color: gray;
+			}
+			
+			.wrapper.style4 .keyword {
+				color: #3d6185;
+				font-style: italic;
+			}
 /* Page Wrapper */
 
 	#page-wrapper > section {
@@ -2253,7 +2359,8 @@ input, select, textarea {
 	}
 
 	#features ul.actions {
-		margin-top: 5em;
+		
+		text-align: center;
 	}
 
 /* Highlights */
@@ -2263,11 +2370,11 @@ input, select, textarea {
 	}
 
 		#highlights .highlight h3 {
-			color: #606c38;
 			margin: 0 0 0.75em 0;
 			font-size: 1.15em;
 			letter-spacing: 0.05em;
 		}
+
 
 /* Main */
 
@@ -2465,7 +2572,8 @@ input, select, textarea {
 				#intro p.style2 {
 					font-size: 2.25em;
 				}
-
+				
+				
 		/* Footer */
 
 			#footer {

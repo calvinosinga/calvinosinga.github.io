@@ -1,0 +1,6 @@
+HI-galaxy cross-power spectra in redshift space at $z$ = 0, projecting velocities along different lines of sight.
+Each line of sight is plotted as a ratio over the fiducial $x$-axis. It is not necessarily expected that each
+line of sight yields similar power spectra, as some axes will collapse faster than others (Zeldovich pancake).
+In any case, the cross-power spectra change by a factor of $\sim 2$ on the largest scales, but at small scales
+the effect is negligible. Interestingly, the axis-dependence appears to affect blue galaxies less strongly than
+the other galactic populations.
