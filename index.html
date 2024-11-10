@@ -28,10 +28,14 @@
 
 			<!-- Header -->
 				<section id="header" class="wrapper">
-					<!-- TODO: adjust to a single image for mobile users-->
-					<video id="background-video" autoplay loop muted poster="images/poster.png">
-						<source src="images/cosmic_web_vis.mp4" type="video/mp4">
-					</video>
+			<!-- Background for Desktop: Video -->
+			<video id="background-video" autoplay loop muted playsinline poster="images/poster.png">
+				<source src="images/cosmic_web_vis.mp4" type="video/mp4">
+			</video>
+
+			<!-- Background for Mobile: Image -->
+			<img id="background-image" src="images/poster.png" alt="Cosmic Web Visualization" />
+
 					<!-- Logo -->
 						<div id="logo">
 							<h1>Calvin Osinga</h1>
@@ -88,12 +92,14 @@
 									<a class="link" href="https://www.benediktdiemer.com">Benedikt Diemer</a>
 									researching a better framework to study dark matter 
 									in universe-scale simulations.
-									I'm also interested in work drawing maps of the universe and 
-									galaxy formation and evolution. In the past, I have worked with
+									I also help build maps of the universe and investigate
+									the many mechanisms that generate the diverse population of
+									galaxies that we see in the sky today. 
+									<!--In the past, I have worked with
 									Professors <a class="link" href="https://cmb.physics.wisc.edu/">Peter Timbie</a>
 									and <a class="link" href="https://www.madastrodynamics.com/research">Elena D'Onghia</a>
-									at the University of Wisconsin - Madison on those topics. <br><br>
-
+									at the University of Wisconsin - Madison on those topics.--> <br><br>
+									
 									I include some
 									personal interests and service work outside of research on my 
 									<a class="link" href="bio/page.html">About Me</a> page.
@@ -357,6 +363,26 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script>
+				// Function to set the background based on initial screen size
+				function setBackground() {
+					const video = document.getElementById('background-video');
+					const image = document.getElementById('background-image');
+			
+					// Check the initial screen width
+					const screenWidth = window.innerWidth;
+			
+					// Use video if the screen width is larger than 768px
+					if (screenWidth > 768) {
+						video.style.display = 'block';
+					} else {
+						image.style.display = 'block';
+					}
+				}
+			
+				// Run the function once when the page loads
+				window.addEventListener('load', setBackground);
+			</script>
+			
 	</body>
 </html>
