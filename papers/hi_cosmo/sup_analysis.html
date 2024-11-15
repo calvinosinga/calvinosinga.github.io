@@ -20,7 +20,7 @@
   gtag('config', 'G-Y7HXLGT7Y9');
 </script>
 
-		<title>TBD</title>
+		<title>Lost in the FoG</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -33,7 +33,7 @@
 
 				<!-- Header -->
 					<header id="header">
-						<h1><a href="sup_analysis.html"><strong>The True Colors of Hydrogen:</strong> supplementary analysis</a></h1>
+						<h1><a href="sup_analysis.html"><strong>Lost in the FoG:</strong> supplementary analysis</a></h1>
 						<nav>
 							<ul>
 								<li><a href="#footer" class="icon solid fa-info-circle">About</a></li>
@@ -43,12 +43,163 @@
 
 				<!-- Main -->
 				<div id="main">
+					<!-- RSD errors at other redshifts-->
 					<article class="thumb">
-						<a href="images/alt_bias_caption.png" class="image"><img src="images/alt_bias.png" alt="" /></a>
-						<h2>comparing bias definitions</h2>
+						<a href="images/modelerr_frac_snap_with_m_x_extend_dark.png" class="image">
+							<img src="images/modelerr_frac_snap_with_m_x_extend_dark.png" title="
+							The RSD errors for each population at each redshift (like figure 6).
+							The white background signifies wavenumbers not included in the fits 
+							obtaining the PVD values. z = 1 is shown in the paper. RSD errors
+							grow with time across all populations. The z = 0 matter RSD errors 
+							are exceptionally large, although the reason is unclear.
+							The scale-dependent behavior for each plot is similar for each tracer
+							at each redshift. However, the decline at small scales becomes sharper
+							at later times. These trends are difficult to attribute to anything
+							physical without a deeper study, but largely support the conclusion
+							that models of RSDs that only include the linear Kaiser and FoG terms
+							are insufficient.
+							"/>
+
+						</a>
+						<h2>&sect4.3: RSD Errors at all redshifts</h2>
+					</article>
+					<!-- Redshift-space galaxy auto powers-->
+
+
+					<!-- 2D power spectra at different redshifts-->
+
+					<!-- Resolution dependence of correlation coefficient-->
+					<article class="thumb">
+						<a href="images/cc_resolution.png" class="image">
+							<img src="images/cc_resolution.png" alt=""
+							title=
+							"Resolution dependence of the correlation coefficients. 
+							They have similar vertical offsets as the biases, arising from 
+							the changing cosmic HI abundance suppressing the overall HI 
+							clustering. Blue galaxies possess somewhat similar trends  
+							with resolution as HI, which mitigates the resolution-dependence 
+							of the HI x Blue correlation coefficient. In any case, this further
+							demonstrates that large-scale HI distributions are sensitive to 
+							resolution, although generally the scale-dependencies agree across
+							the different resolutions."
+							/>
+						</a>
+						<h2>&sectA: Resolution Dependence of Correlation Coefficients</h2>
+
+					</article>
+					
+					<!-- Resolution dependence of RSD Errors-->
+					<!-- Auto redshift evolution figures (2)-->
+					<!-- <article class="thumb">
+						<a href="images/auto_model_err.png" class="image">
+							<img src="images/auto_model_err.png" alt=""
+								title = 
+								
+							/>
+						</a>
+						<h2>&sectC: HI Auto models at all redshifts</h2>
+					</article> -->
+
+					<article class="thumb">
+						<a href="images/auto_model_err_zevo.png" class="image">
+							<img src="images/auto_model_err_zevo.png"
+								title = "Same plot as figure 7, with the information reorganized
+								to facilitate easier comparisons of the same model at different redshifts.
+								Note the logarithmic y-axes in the top two panels only.
+								All models perform worse at later redshifts, with the exception of
+								sB+FoG which actually performs best at z = 0.5. We attribute this trend
+								to the weaker nonlinearities and baryonic effects at earlier redshifts."/>
+						</a>
+						<h2>&sectC: the redshift evolution of HI auto model errors</h2>
 					</article>
 
+					<!-- Xpk redshift evolution figures (2)-->
+					 <article class="thumb">
+						<a href="images/xpk_model_err.png" class="image">
+							<img src="images/xpk_model_err.png"
+								title=
+								"HI-galaxy cross-power spectra errors for all galaxy populations at
+								various redshifts. Each cross-power follows similar trends to those
+								outlined in the analysis of HI x Blue in the paper. Across redshifts,
+								models generally perform better in HI x Blue than with the other populations."
+							/>
+						</a>
+						<h2>&sectC: HI-Galaxy Models at all redshifts</h2>
+					 </article>
+
+					 <article class="thumb">
+						<a href="images/xpk_model_err_zevo.png" class="image">
+							<img src="images/xpk_model_err_zevo.png"
+							title="
+							Similar plot as previous, with information reorganized to facilitate
+							easier comparisons of different redshifts for each model.
+							"/>
+						</a>
+						<h2>&sectC: The redshift evolution of HI-Galaxy models</h2>
+					 </article>
+					
+					 <!-- Omega plots -->
+					  <article class="thumb">
+						<a href="images/omega_zevo.png" class="image">
+							<img src="images/omega_zevo.png"
+								title="
+								Like figure 9 from the paper, but including z = 0.
+								"/>
+						</a>
+						<h2>&sectC: actual vs inferred Omega, all redshifts</h2>
+					  </article>
+
+					  <article class="thumb">
+						<a href="images/omega_zevo_inpanel.png" class="image">
+							<img src="images/omega_zevo_inpanel.png"
+								title="
+								Similar plot as previous, with information reorganized to directly
+								compare different redshifts of the same model and power spectra.
+								Models not present in both auto and cross-power spectra are removed.
+								The notation at the top of each column corresponds to the cross-power
+								model, although we use the equivalent HI auto power model that uses
+								the same assumptions."/>
+						</a>
+						<h2>&sectC: Accuracy of inferred Omega values for each model with redshift</h2>
+					  </article>
+					 <!-- Comparing auto and cross-power spectra at other redshifts-->
+					  <article class="thumb">
+						<a href="images/ax_compare_zevo.png" class="image">
+							<img src="images/ax_compare_zevo.png" title=
+								"
+								Same as figure 16 but for all redshifts. Generally,
+								the trend is that RSD assumptions like neglecting FoG
+								or using a single FoG damping term are safer in the 
+								cross-power than the auto power. Implies that the models
+								perform better for galaxy power spectra than HI, so 
+								cross-powers can mitigate analytical errors with our HI models.
+								"
+							/>
+						</a>
+						<h2>&sectD: Comparing errors between auto and cross-powers</h2>
+					  </article>
+
+					  <article class="thumb">
+						<a href="images/const_prod.png" class="image">
+							<img src="images/const_prod.png" title=
+								"
+								Ratio of the model over the corresponding large-scale
+								value. `Bias only` neglects any RSD effects, `FoG` includes
+								the corresponding FoG term. Demonstrates that the cross-powers
+								have weaker FoG. The scale-dependence of the galaxy and HI biases
+								oppose each other such that assuming constant biases in the cross-power
+								have offsetting errors at z <= 0.5.
+								"
+							/>
+						</a>
+						<h2>&sectD: comparing the validity of constant-bias assumptions</h2>
+					  </article>
+
+
 				</div>
+
+
+
 				<!-- Footer -->
 					<footer id="footer" class="panel">
 						<div class="inner split">
@@ -63,7 +214,8 @@
 										The paper still references these analyses,
 										so they are included here. The figures are
 										presented in the order they are referenced
-										in the paper.
+										in the paper, with the section that referenced
+										them included in the title.
 
 										The descriptions will assume you have read
 										the paper, so they will not be necessarily
@@ -73,9 +225,6 @@
 								<p class="copyright">
 									&copy; Calvin Osinga. Design: <a href="http://html5up.net">HTML5 UP</a>.
 								</p>
-							</div>
-							<div>
-								
 							</div>
 						</div>
 					</footer>
