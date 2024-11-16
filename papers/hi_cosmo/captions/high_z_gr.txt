@@ -1,9 +1,0 @@
-$g - r$ distribution for centrals, satellites
-and all galaxies at $z = 2$. The bimodal
-distribution is not present and does
-not accurately reflect that seen in 
-observations. Beyond that, only
-having a few hundred halos with 
-red galaxies may lead to shot noise
-issues. Thus we do not extend our
-analysis to redshifts beyond $z = 1$.

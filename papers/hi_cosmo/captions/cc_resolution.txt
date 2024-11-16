@@ -1,0 +1,1 @@
+The resolution dependence of the correlation coefficients. They have similar vertical offsets as the biases, arising due to the changing cosmic HI abundance suppressing the overall HI clustering. Blue galaxies possess somewhat similar trends with resolution as HI, which mitigates the resolution-dependence of the HI x Blue correlation coefficient.
