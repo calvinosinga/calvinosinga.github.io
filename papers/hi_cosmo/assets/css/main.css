@@ -1207,7 +1207,7 @@ input, select, textarea {
 			display: block;
 			height: 50%;
 			left: 0;
-			position: absolute;
+			position: relative;
 			top: 0;
 			width: 100%;
 			z-index: 1;
@@ -1265,30 +1265,76 @@ input, select, textarea {
 		}
 
 
+		/* Always: caption gets black background, white text */
 		.poptrox-popup .caption {
-			padding: 0.5em;
-			background-color: black;
+			background: black;
 			color: white;
-			bottom: 0;
-			cursor: default;
-			left: 0;
-			position: relative;
-			text-align: center;
-			width: 100%;
-			z-index: 2;
-		}
-		/* .poptrox-popup .caption {
+			text-align: center;  /* tweak as you wish */
 			padding: 0.5em;
-			background-color: black; /* Solid black background */
-			/* color: #ffffff;
-			text-align: center; */
-			/* max-width: 90%;  */
-			/* margin: 0 auto;  */
-			/* font-size: clamp(0.8rem, 1.5vw, 1.2rem) */
-			/* border-radius: 5px; */
-			/* position: relative; */
-			/* z-index: 1;
-		} */
+			box-sizing: border-box;
+			position: static;
+		}
+
+		.poptrox-popup.popout-wide {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: flex-start;
+		}
+			.poptrox-popup.popout-wide .caption {
+				/* Make the caption match the actual image width, if you like. 
+				Because the image is displayed in a container, you might prefer auto. */
+				width: auto; 
+				margin: 0 auto;
+			}
+		
+			/* 2) If the image is >=2x taller than wide => text to the right,
+			same height. We'll do side-by-side layout. */
+		.poptrox-popup.popout-tall {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.poptrox-popup.popout-tall img {
+			/* Ensure the image doesn’t shrink too small. */
+			max-height: 90vh; 
+			display: block;
+		  }
+		  .poptrox-popup.popout-tall .caption {
+			/* Make the caption match the figure height. 
+			   We can do a flex layout so the caption is vertically centered. */
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			/* Because poptrox popup is absolutely sized, you may need a fixed max-height. 
+			   Or we rely on flex to handle it. */
+			height: auto; /* If you want EXACT matching height, you'll measure in JS (see below). */
+			width: auto;
+			margin-left: 1em;
+		  }
+		/* 3) Everything else => text on the right side, half the figure’s width, etc. */
+		.poptrox-popup.popout-other {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+		}
+		.poptrox-popup.popout-other img {
+			display: block;
+			/* Possibly limit the overall size. */
+		}
+		.poptrox-popup.popout-other .caption {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			/* If you want half the figure's width exactly, you'll measure the figure 
+			in JS and set .style.width. Otherwise, approximate in CSS, e.g. */
+			flex: 1 1 50%; 
+			max-width: 50%; /* or whatever ratio you prefer */
+			margin-left: 1em;
+		}
 			.poptrox-popup .caption h2, .poptrox-popup .caption h3, .poptrox-popup .caption h4, .poptrox-popup .caption h5, .poptrox-popup .caption h6 {
 				margin: 0 0 0.5em 0;
 				display: none;

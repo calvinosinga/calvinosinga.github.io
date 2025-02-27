@@ -244,6 +244,33 @@
 				// },
 				caption: null,
 				fadeSpeed: 300,
+				onPopup: function() {
+					const $popup = $('.poptrox-popup');
+					const $img = $popup.find('img');
+				
+					// Remove any old classes:
+					$popup.removeClass('popout-wide popout-tall popout-other');
+				
+					// If the image was just replaced, wait for it to load, then measure aspect ratio.
+					$img.on('load', function() {
+					  // (naturalWidth/Height are the actual image dimensions in pixels)
+					  const w = this.naturalWidth;
+					  const h = this.naturalHeight;
+					  const ratio = w / h;
+				
+					  if (ratio >= 2) {
+						// 2x wider => text at bottom
+						$popup.addClass('popout-wide');
+					  } else if (ratio <= 0.5) {
+						// 2x taller => text on the right
+						$popup.addClass('popout-tall');
+					  } else {
+						// everything else => text on right, half width
+						$popup.addClass('popout-other');
+					  }
+					});
+				},
+					
 				onPopupClose: function() { $body.removeClass('modal-active'); },
 				// onPopupOpen: function() { $body.addClass('modal-active'); },
 				onPopupOpen: function() {
