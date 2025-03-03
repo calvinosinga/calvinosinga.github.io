@@ -42,7 +42,7 @@
 
 					<li><a href="#motiv">Introduction</a></li>
 					<li><a href="#tianlai">Tianlai</a></li>
-					<li><a href="#cross-correlations">Cross-Correlations</a></li>
+					<li><a href="#model">Models</a></li>
 
 
 				</ul>
@@ -171,7 +171,7 @@
 							<h3>Cosmic Radio Static</h3>
 							<p>
 								An alternative method of mapping the Universe is presented by
-								using its most abundant element: hydrogen. Hydrogen emits radio
+								using its most abundant element: hydrogen. Atomic hydrogen emits radio
 								waves, which luckily for us is easily observed on Earth and doesn't
 								require complicated methods of determining the position of a galaxy.
 								This technique is called <span class="keyword">21cm Intensity Mapping</span>, named after the
@@ -182,7 +182,7 @@
 								for future intensity mapping instruments. <br><br>
 								
 								I began my research career working with <a class="link" href="https://cmb.physics.wisc.edu/">Peter Timbie</a>,
-								on the Tianlai array.
+								on the <a class="link" href="https://tianlai.bao.ac.cn/">Tianlai</a> array.
 								To test this instrument, I built electromagnetic simulations
 								of the array in order to predict and characterize its response
 								to astronomical and test signals,
@@ -198,20 +198,41 @@
 			</div>
 		</section>
 		<section id="highlights" class="wrapper style4">
-			<div id="cross-correlations" class="title">Cross Correlations</div>
+			<div id="model" class="title">Developing the Model</div>
 			<div class="container">
 				<div class="row aln-center">
-					<div class="col-6">
+					<div class="col-6 col-12-medium">
+						<section class="highlight">
+							<a class="image featured">
+								<img src="vn_no_labels.png"/>
+							</a>
+							<p>
+								The hydrogen distribution within the cosmological simulation IllustrisTNG.
+							</p>
+						</section>
+					</div>
+					<div class="col-6 col-12-medium">
 						<section class="highlight">
 							<p>
-								section coming soon!
-								<!-- described in previous section - why HI is useful for cosmology
+								Although 21cm intensity mapping is a very promising method to map the Universe, 
+								the technique is still in its developmental stages. To fully harness the capabilities
+								of future observations, we need to develop models that will allow us to infer the
+								full matter distribution from the hydrogen maps. Fortunately, these models already
+								exist, having been used in previous galaxy surveys! Ideally, we should be able
+								to just adopt those same models for hydrogen, right? <br><br>
+
+								In Osinga+25, I tested these traditional models in a cosmological simulation (think
+								Universe in a box) called IllustrisTNG to get an idea of how well they perform. In a simulation,
+								we know the "true" matter distribution <em>and</em> the hydrogen distribution.
+								We can apply our models to the hydrogen distribution and compare the inferred matter distribution
+								to the true one in the simulation to assess the performance of these models. <br><br>
+
+								In these tests, I found that 
+								<span class="keyword">traditional models incur significant errors</span> when applied to hydrogen.
+								This has two major ramifications. First, recent observations that employed
+								these models inferred biased values of various cosmological parameters. Second, there is a severe
+								need to improve these models to prepare for upcoming 21cm intensity mapping observations.
 								
-								early stages - test by comparing to galaxy surveys
-
-								simulations are useful for testing our models' ability to measure an actual matter distribution
-
-								In upcoming paper, will use IllustrisTNG. -->
 							</p>
 						</section>
 					</div>
